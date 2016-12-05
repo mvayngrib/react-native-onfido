@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+project 'RNOnfido.xcodeproj'
+
+target 'RNOnfido' do
+# pod 'Alamofire'
+# pod 'AlamofireObjectMapper'
+# pod 'MBProgressHUD'
+# pod 'ObjectMapper'
+ pod 'Onfido'
+end
+
+target 'RNOnfidoTests' do
+
+end
+

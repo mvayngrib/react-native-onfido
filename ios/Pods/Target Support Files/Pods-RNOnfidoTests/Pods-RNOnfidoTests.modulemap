@@ -1,0 +1,6 @@
+framework module Pods_RNOnfidoTests {
+  umbrella header "Pods-RNOnfidoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,10 @@
+framework module Onfido {
+  umbrella header "Onfido-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Onfido.Swift {
+    header "Onfido-Swift.h"
+}
